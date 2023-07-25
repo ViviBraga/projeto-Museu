@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(231, 231, 231);
+    font-family: 12px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: url(../imagens/fundo.png) repeat-x;
+}
+
+#topo {
+    text-indent: -999px;
+    background: url(../imagens/logo.png) no-repeat;
+    padding-top: 25px;
+    display: block;
+}
