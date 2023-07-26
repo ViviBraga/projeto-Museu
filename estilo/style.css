@@ -18,12 +18,19 @@ header {
     width: 1080px;
     height: 55px;
     margin: 0 auto;
+    padding: 15px 0px;
 }
 
-#logo {
+#logo h1 {
+    float: left;
+}
+
+#logo h1 a {
+    width: 248px;
+    height: 21px;
     text-indent: -9999px;
-    background: url(../imagens/logo.png) no-repeat;
     display: block;
+    background: url(../imagens/logo.png) no-repeat;
 }
 
 nav ul {
@@ -42,4 +49,60 @@ nav ul li a {
 
 nav ul li a:hover {
     border-bottom: 1px solid #227115;
+}
+
+#principal {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#conteudo {
+    width: 710px;
+    float: left;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+}
+
+#visita {
+    padding: 5px;
+}
+
+h4 {
+    color: #af670a;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+fieldset {
+ border: none; 
+}
+
+fieldset label {
+    padding-left: 25px;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+}
+
+.tamanho {
+    width: 80px;
+}
+
+.t2 {
+    width: 25px;
+}
+
+input[type="submit"] {
+    width: 300px;
+    background: #b1731dd8;
+    height: 30px;
+    color: white;
+    display: block;
+    margin: 0px auto;
+    font-weight: bold;
 }
