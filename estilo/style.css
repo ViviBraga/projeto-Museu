@@ -69,9 +69,10 @@ aside {
 
 #visita {
     padding: 5px;
+    background: rgba(172, 172, 172, 0.767);
 }
 
-h4 {
+h3, h4 {
     color: #af670a;
     text-transform: uppercase;
     padding-left: 20px;
@@ -105,4 +106,43 @@ input[type="submit"] {
     display: block;
     margin: 0px auto;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.video {
+    float: left;
+}
+
+.mapa {
+    float: right;
+}
+
+.expo {
+    float: left;
+    padding: 20px;
+    width: 320px;
+}
+
+.histo {
+    float: right;
+    width: 310px;
+    padding: 20px;
+}
+
+#fotos a {
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 18px 15px 15px 15px;
+    margin: 0px 10px 5px 25px;
+}
+
+footer {
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background: url(../imagens/fundo-rodape.png) no-repeat top center;
+}
+
+footer>p a {
+    padding: 5px 10px;
 }
